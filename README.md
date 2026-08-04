@@ -4,6 +4,19 @@ Proud to share my project: **BOOKVERSE**, a modern online bookstore web applicat
 
 ---
 
+### 🖼️ PROJECT SCREENSHOTS
+
+#### 🏡 Home Page
+![BookVerse Home Page](./screenshots/home.png)
+
+#### 📚 Books Catalog & Category Filters
+![BookVerse Books Catalog](./screenshots/books.png)
+
+#### 🔐 User Login Page
+![BookVerse Login Page](./screenshots/login.png)
+
+---
+
 ## 🔑 KEY FEATURES:
 - 📚 **Extensive Book Catalog & Category Filtering** (Fiction, UPSC, Physics, Mathematics, Story, Novels, Horror & Thriller, Self-Help)
 - ❤️ **Wishlist Management** with Persistent Local Storage & Quick Add to Cart
