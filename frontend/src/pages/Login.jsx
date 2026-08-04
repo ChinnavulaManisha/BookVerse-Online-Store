@@ -14,13 +14,8 @@ const Login = () => {
 
   const handlePortalChange = (selectedPortal) => {
     setPortal(selectedPortal);
-    if (selectedPortal === 'admin') {
-      setEmail('admin@bookverse.com');
-      setPassword('admin123');
-    } else {
-      setEmail('');
-      setPassword('');
-    }
+    setEmail('');
+    setPassword('');
   };
 
   const handleSubmit = async (e) => {
@@ -102,11 +97,7 @@ const Login = () => {
               Don't have an account? <Link to="/register">Create Account</Link>
             </p>
 
-            {portal === 'admin' && (
-              <div className="demo-credentials">
-                <p><strong>Demo Admin:</strong> admin@bookverse.com / admin123</p>
-              </div>
-            )}
+
           </form>
         </div>
       </div>
