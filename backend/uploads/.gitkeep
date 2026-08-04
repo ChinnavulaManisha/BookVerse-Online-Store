@@ -1,0 +1,2 @@
+# This directory stores uploaded book cover images
+# It is served statically by Express at /uploads
